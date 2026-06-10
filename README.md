@@ -39,9 +39,9 @@ Location types are identified as follows:
   (2)depot = false and station = true: charging station.
   
   (3)depot = false and station = false: service location.
-  
+
 3. Description of “jobs”
-   
+
 The field “jobs” is a list of all customer requests. Each customer contains the following fields:
 
   (1)customer_id: Unique identifier of the customer.
@@ -61,7 +61,7 @@ The field “jobs” is a list of all customer requests. Each customer contains 
 Each customer must be assigned to exactly one location from its availableLocationsId list. If the selected service location is different from the preferredLocationId, a deviation cost is incurred.
 
 4. Description of “electric_vehicle”
-   
+
 The field “electric_vehicle” gives the main vehicle-related parameters:
 
   (1)Q: Battery capacity of the electric vehicle.
