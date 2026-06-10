@@ -58,9 +58,7 @@ The field “jobs” is a list of all customer requests. Each customer contains 
   
   (7)availableLocationsId: List of candidate service locations where the customer can be served.
   
-Each customer must be assigned to exactly one location from its availableLocationsId list. If the selected service location is different from the preferredLocationId, a deviation cost is incurred.
-
-4. Description of “electric_vehicle”
+Each customer must be assigned to exactly one location from its availableLocationsId list. If the selected service location is different from the preferredLocationId, a deviation cost is incurred.<br>4. Description of “electric_vehicle”
 
 The field “electric_vehicle” gives the main vehicle-related parameters:
 
