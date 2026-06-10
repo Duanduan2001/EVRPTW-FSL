@@ -60,7 +60,7 @@ The field “jobs” is a list of all customer requests. Each customer contains 
   
 Each customer must be assigned to exactly one location from its availableLocationsId list. If the selected service location is different from the preferredLocationId, a deviation cost is incurred.
 
-5. Description of “electric_vehicle”
+4. Description of “electric_vehicle”
    
 The field “electric_vehicle” gives the main vehicle-related parameters:
 
@@ -76,7 +76,7 @@ The field “electric_vehicle” gives the main vehicle-related parameters:
   
 These parameters are used to evaluate vehicle capacity feasibility, battery feasibility, travel time, and charging time.
 
-4.Description of “time_span”
+5.Description of “time_span”
 
 The field “time_span” defines the planning horizon of the instance:
 
@@ -84,7 +84,7 @@ The field “time_span” defines the planning horizon of the instance:
   
   (2)end: End time of the planning horizon.
   
-5.Data Availability
+6.Data Availability
 
 The generated EVRPTW-FSL instances are provided for reproducibility of the computational experiments. Users can parse each JSON file to obtain the depot, charging stations, service locations, customer information, candidate service-location sets, and electric vehicle parameters.
 
