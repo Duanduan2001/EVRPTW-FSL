@@ -4,9 +4,8 @@ The data that support the findings of the EVRPTW-FSL problem study.
 
 Each instance is stored as a JSON file. The file contains four main parts:
 
-  (1)places
-  
-  (2)jobs
+  -(1)places
+  -(2)jobs
   
   (3)electric_vehicle
   
